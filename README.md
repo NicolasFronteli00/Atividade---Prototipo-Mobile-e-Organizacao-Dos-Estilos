@@ -16,20 +16,20 @@ Foram fornecidas 14 telas e seu fluxo de navegação, e a partir delas foi feita
 
 Telas 
 
-Tela 01 - Página Inicial
-Tela 02 - Categoria Techno
-Tela 03 - Destaques 
-Tela 04 - Assinar Newsletter
-Tela 05 - Administração de Categorias 
-Tela 06 - Criação de Postagem
-Tela 07 - Escolhas do Editor
-Tela 08 - Gerenciamento de Usuários 
-Tela 09 - Fila de Revisão 
-Tela 10 - Fila de Comentários 
-Tela 11 - Resultados de Busca
-Tela 12 - Login
-Tela 13 - Criar Conta 
-Tela 14 - Gerenciar Perfil
+ Tela 01 - Página Inicial
+ Tela 02 - Categoria Techno
+ Tela 03 - Destaques 
+ Tela 04 - Assinar Newsletter
+ Tela 05 - Administração de Categorias 
+ Tela 06 - Criação de Postagem
+ Tela 07 - Escolhas do Editor
+ Tela 08 - Gerenciamento de Usuários 
+ Tela 09 - Fila de Revisão 
+ Tela 10 - Fila de Comentários 
+ Tela 11 - Resultados de Busca
+ Tela 12 - Login
+ Tela 13 - Criar Conta 
+ Tela 14 - Gerenciar Perfil
 
 
 Componentes Identificados e Variações

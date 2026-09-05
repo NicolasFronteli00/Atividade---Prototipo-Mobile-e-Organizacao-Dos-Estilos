@@ -51,7 +51,9 @@ Organização dos Arquivos
 
 |-- wireframes/
     | -- Tela_01.png
+    
     | -- Tela_02.png
+    
     | -- Tela_03.png
     | -- Tela_04.png
     | -- ...

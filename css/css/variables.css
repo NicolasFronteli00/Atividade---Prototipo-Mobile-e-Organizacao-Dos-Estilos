@@ -1,0 +1,25 @@
+/* variables.css — tokens globais usados por todos os componentes */
+:root {
+  --color-bg: #ffffff;
+  --color-surface: #d9d9d9;
+  --color-surface-light: #f2f2f2;
+  --color-accent: #a9cfdb;
+  --color-accent-dark: #6fa6b8;
+  --color-dark: #111111;
+  --color-text: #1a1a1a;
+  --color-text-muted: #6b6b6b;
+  --color-border: #cfcfcf;
+
+  --radius-pill: 999px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  --font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  --max-width-mobile: 400px;
+}

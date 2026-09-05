@@ -1,0 +1,131 @@
+/* button.css — bloco .button e seus modificadores */
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--spacing-sm);
+  border: 1px solid transparent;
+  background: var(--color-accent);
+  color: var(--color-text);
+  font-size: 0.85rem;
+  font-family: inherit;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.2s ease, border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.button:hover {
+  background: var(--color-accent-dark);
+  border-color: var(--color-accent-dark);
+  color: #ffffff;
+}
+
+.button:focus-visible {
+  outline: 2px solid var(--color-accent-dark);
+  outline-offset: 2px;
+}
+
+.button--primary {
+  background: var(--color-accent-dark);
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.button--secondary {
+  background: var(--color-surface-light);
+  border-color: var(--color-accent-dark);
+  color: var(--color-text);
+}
+
+.button--outline {
+  background: var(--color-accent);
+  font-size: 0.75rem;
+  padding: 4px 12px;
+}
+
+.button--disabled {
+  background: var(--color-surface);
+  color: var(--color-text-muted);
+  cursor: not-allowed;
+}
+
+.button--small {
+  padding: 4px 10px;
+  font-size: 0.75rem;
+}
+
+.button--block {
+  width: 100%;
+}
+
+/* modificador: botão neutro (cinza), usado em ações secundárias como
+   "Explorar categorias" e "Carregar mais" na área pública */
+.button--neutral {
+  background: var(--color-surface);
+  color: var(--color-text);
+}
+
+.button-row {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  flex-wrap: wrap;
+}
+
+.button-row--center {
+  justify-content: center;
+}
+
+/* botões empilhados, alinhados à esquerda e do tamanho do próprio texto
+   (não esticam para 100% da largura) */
+.button-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-sm);
+}
+
+.button-stack--center {
+  align-items: center;
+}
+
+/* variação de botões para categorias e filtros */
+.button-row--tags {
+  margin-bottom: var(--spacing-md);
+}
+
+.button--tag {
+  background: var(--color-surface-light);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-pill);
+  padding: 4px 12px;
+  font-size: 0.78rem;
+}
+
+.button--tag-active {
+  background: var(--color-surface);
+  font-weight: 600;
+}
+
+/* botões maiores usados nos campos da tela Criar Post */
+.button--tag-field {
+  display: inline-block;
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface-light);
+  white-space: normal;
+  line-height: 1.3;
+}
+
+.button--tag-upload {
+  width: 140px;
+  text-align: left;
+}
+
+.button--tag:hover {
+  background: var(--color-accent);
+  border-color: var(--color-accent-dark);
+  transform: translateY(-1px);
+}

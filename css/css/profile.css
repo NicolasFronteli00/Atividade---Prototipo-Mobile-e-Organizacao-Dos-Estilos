@@ -1,0 +1,13 @@
+/* profile.css — bloco .profile, específico da tela de perfil */
+.profile__avatar {
+  background: var(--color-dark);
+  color: #ffffff;
+  height: 160px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: var(--spacing-md);
+}

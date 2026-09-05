@@ -15,6 +15,7 @@ Foram fornecidas 14 telas e seu fluxo de navegação, e a partir delas foi feita
 
 
 Telas 
+
 Tela 01 - Página Inicial
 Tela 02 - Categoria Techno
 Tela 03 - Destaques 

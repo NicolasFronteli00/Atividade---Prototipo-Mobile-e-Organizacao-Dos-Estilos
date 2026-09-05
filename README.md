@@ -50,16 +50,16 @@ Footer | Todas as telas | única |
 Organização dos Arquivos
 
 |-- wireframes/
+
     | -- Tela_01.png
-    
     | -- Tela_02.png
-    
     | -- Tela_03.png
     | -- Tela_04.png
     | -- ...
     | -- Tela_14.png
 
 |-- css/
+
     |-- admin.css
     |-- base.css
     |-- button.css
